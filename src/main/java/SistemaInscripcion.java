@@ -12,7 +12,7 @@ import com.google.gson.GsonBuilder;
 public class SistemaInscripcion {
     private List<Estudiante> estudiantes;
     private List<Asignatura> asignaturas;
-    private static final String FILE_PATH = "datos.json";
+    private static final String FILE_PATH = "src/main/resources/datos.json";
 
     public SistemaInscripcion() {
         this.estudiantes = new ArrayList<>();
